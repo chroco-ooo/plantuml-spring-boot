@@ -31,6 +31,25 @@
    ```
 
 ## How to Use
+Once the application is running, you can generate UML diagrams by constructing a URL with the following format:
+
+```
+http://localhost:8080/{type}/{encoded-text}
+```
+
+Where `{type}` is the type of diagram you want to generate, and `{encoded-text}` is your PlantUML diagram description that has been text-encoded. Text encoding is necessary to ensure that the diagram description is properly transmitted via URL.
+
+### Text Encoding
+To encode your PlantUML description, you can follow the text encoding instructions provided by PlantUML. This process converts your PlantUML text into a compressed format suitable for URL usage. For detailed guidance on text encoding, please refer to the PlantUML documentation:
+
+[PlantUML Text Encoding](https://plantuml.com/ja/text-encoding)
+
+### Example
+If you have a PlantUML description for a simple class diagram, you first need to text-encode this description. Once encoded, you construct the URL by replacing `{type}` with your diagram type (e.g., `uml`) and `{encoded-text}` with your encoded PlantUML text.
+
+Accessing this URL in a web browser or through a REST client will generate and display the UML diagram.
+
+## How to Use
 Once the application is running, you can generate UML diagrams by accessing the following endpoint:
 
 - UML Diagram Generation API: `POST /api/uml/generate`
