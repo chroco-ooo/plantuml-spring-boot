@@ -45,7 +45,7 @@ To encode your PlantUML description, you can follow the text encoding instructio
 [PlantUML Text Encoding](https://plantuml.com/ja/text-encoding)
 
 ### Example
-If you have a PlantUML description for a simple class diagram, you first need to text-encode this description. Once encoded, you construct the URL by replacing `{type}` with your diagram type (e.g., `uml`) and `{encoded-text}` with your encoded PlantUML text.
+If you have a PlantUML description for a simple class diagram, you first need to text-encode this description. Once encoded, you construct the URL by replacing `{type}` with your diagram type (e.g., `png`) and `{encoded-text}` with your encoded PlantUML text.
 
 Accessing this URL in a web browser or through a REST client will generate and display the UML diagram.
 
