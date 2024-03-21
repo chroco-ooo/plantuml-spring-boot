@@ -15,7 +15,7 @@
 ## Setup Instructions
 1. Clone the repository.
    ```
-   git clone https://github.com/yourusername/plantuml-spring-boot.git
+   git clone https://github.com/chroco-ooo/plantuml-spring-boot.git
    ```
 2. Navigate to the project directory.
    ```
