@@ -49,13 +49,6 @@ If you have a PlantUML description for a simple class diagram, you first need to
 
 Accessing this URL in a web browser or through a REST client will generate and display the UML diagram.
 
-## How to Use
-Once the application is running, you can generate UML diagrams by accessing the following endpoint:
-
-- UML Diagram Generation API: `POST /api/uml/generate`
-
-Send a request body containing your PlantUML description. Upon success, the generated UML diagram image or URL will be returned.
-
 ## Contributing
 Contributions to this project are welcome. Please feel free to contribute through bug reports, feature suggestions, and pull requests to help improve the project.
 
